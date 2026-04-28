@@ -29,11 +29,10 @@ public class SystemMain01 {
 		member1.showMember();
 
 		Member member2 = new Member();
-		member2.name = "Sato Kensuke";
+		member2.name = " Sato Kensuke";
 		member2.age = 36;
 		member2.rank = 2;
 		member2.showMember();
-
 	}
 
 }
