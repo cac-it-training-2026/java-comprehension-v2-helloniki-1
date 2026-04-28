@@ -7,7 +7,7 @@ public class Member extends AbstMember {
 	private int rank;
 
 	/**
-	 * @return id
+	 * @return id/
 	 */
 	public int getId() {
 		return id;

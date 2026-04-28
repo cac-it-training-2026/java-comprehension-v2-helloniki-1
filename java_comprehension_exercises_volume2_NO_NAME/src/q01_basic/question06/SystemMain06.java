@@ -42,7 +42,7 @@ public class SystemMain06 {
 			BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 			inputPassword = reader.readLine();
 		} catch (IOException e) {
-			// TODO 自動生成された catch ブロック
+			// TODO 自動生成された catch ブロック/
 			System.out.println("error!");
 			e.printStackTrace();
 			return;

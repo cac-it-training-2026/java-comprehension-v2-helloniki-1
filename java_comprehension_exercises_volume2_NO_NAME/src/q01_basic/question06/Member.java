@@ -77,7 +77,7 @@ public class Member extends AbstMember {
 	}
 
 	/**
-	 * 
+	 *k
 	 */
 	public Member() {
 	}

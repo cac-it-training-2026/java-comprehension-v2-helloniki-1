@@ -9,7 +9,7 @@ class Member {
 	private int rank;
 
 	/**
-	 * @return id
+	 * @return id/
 	 */
 	public int getId() {
 		return id;

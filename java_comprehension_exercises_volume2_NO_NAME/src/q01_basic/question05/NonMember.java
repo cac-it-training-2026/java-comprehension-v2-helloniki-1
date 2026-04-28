@@ -12,7 +12,7 @@ public class NonMember extends AbstMember {
 	}
 
 	public void showMember() {
-		System.out.println("***MEMBER DATA*** ");
+		System.out.println("***MEMBER DATA***  ");
 		System.out.println(name + "is a non-member ");
 	}
 

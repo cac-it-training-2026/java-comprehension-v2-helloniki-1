@@ -17,7 +17,7 @@ rank:2
 *****************
 
  * 
- */
+ *////
 public class SystemMain01 {
 
 	public static void main(String[] args) {

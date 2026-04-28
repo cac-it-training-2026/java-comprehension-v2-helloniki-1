@@ -8,7 +8,7 @@ class MemberManager {
 	private MemberManager() {
 	}
 
-	//TODO showAllMembersメソッドを実装する
+	//TODO showAllMembersメソッドを実装する/
 	static void showAllMembers(Member[] members) {
 		for (Member member : members) {
 			member.showMember();

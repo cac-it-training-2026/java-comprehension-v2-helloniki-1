@@ -6,7 +6,7 @@ class Member {
 	private int rank;
 
 	/**
-	 * @return name
+	 * @return name/
 	 */
 	public String getName() {
 		return name;
