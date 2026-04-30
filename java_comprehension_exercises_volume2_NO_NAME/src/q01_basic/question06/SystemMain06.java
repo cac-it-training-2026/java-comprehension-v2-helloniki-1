@@ -1,8 +1,6 @@
 package q01_basic.question06;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class SystemMain06 {
 
@@ -20,10 +18,7 @@ public class SystemMain06 {
 
 		System.out.println("input id>>");
 		try {
-			cr.inputNumber();
-			BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-			String str = reader.readLine();
-			inputId = Integer.parseInt(str);
+			inputId = cr.inputNumber();
 		} catch (NumberFormatException e) {
 			// TODO 自動生成された catch ブロック
 			System.out.println("error!");
@@ -38,9 +33,8 @@ public class SystemMain06 {
 
 		System.out.println("input password>>");
 		try {
-			cr.inputString();
-			BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-			inputPassword = reader.readLine();
+			inputPassword = cr.inputString();
+
 		} catch (IOException e) {
 			// TODO 自動生成された catch ブロック/
 			System.out.println("error!");
